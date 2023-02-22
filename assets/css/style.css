@@ -28,3 +28,26 @@
 
 /* Elements */
 
+.orange{
+    background-color: orange;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.hd{
+    justify-content: space-between;
+}
+
+.gender{
+    display: inline-block;
+}
+
+.hd div img{
+    width: 30%;
+}
+
+#icons{
+    color: #fff;
+}
