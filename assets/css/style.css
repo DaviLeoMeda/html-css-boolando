@@ -1,6 +1,30 @@
+/* Utilities */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.flexible{
+    display: flex;
+}
+
+.container-80{
+    width: 80%;
+}
+
+.relat{
+    position: relative;
+}
+
+.abso{
+    position: absolute;
+}
+
+.fix{
+    position: fixed;
+}
+
+/* Elements */
 
