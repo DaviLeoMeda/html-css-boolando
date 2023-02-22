@@ -10,8 +10,13 @@
     display: flex;
 }
 
+img{
+    width: 50%;
+}
+
 .container-80{
     width: 80%;
+    margin: 0 auto;
 }
 
 .relat{
@@ -29,19 +34,22 @@
 /* Elements */
 
 .orange{
-    background-color: orange;
     text-align: center;
     top: 0;
     right: 0;
     width: 100%;
+    background-color: orangered;
 }
+
 
 .hd{
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
 
-.gender{
-    display: inline-block;
+.textcenter span{
+    padding: 10px;
 }
 
 .hd div img{
@@ -50,4 +58,17 @@
 
 #icons{
     color: #fff;
+    display: inline-block;
+}
+
+main{
+    margin-top: 200px;
+}
+
+.red{
+    color: red;
+}
+
+.broken{
+    text-decoration: line-through;
 }
