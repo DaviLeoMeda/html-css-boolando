@@ -4,15 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: small;
 }
 
 .flexible{
     display: flex;
 }
 
-img{
-    width: 50%;
-}
 
 .container-80{
     width: 80%;
@@ -38,6 +36,7 @@ img{
     top: 0;
     right: 0;
     width: 100%;
+    z-index: 3;
     background-color: orangered;
 }
 
@@ -65,11 +64,51 @@ main{
     margin-top: 200px;
 }
 
+.container-60{
+    width: 30%;
+    margin: 0 auto;
+}
+
 .red{
     color: red;
 }
 
 .broken{
     text-decoration: line-through;
+}
+
+.slides{
+    flex-basis: calc ( (100% / 3) -10%);
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.slide{
+    /* margin-right: 10%; */
+    margin-bottom: 50px;
+}
+
+.photo{
+    z-index: 1;
+}
+
+.hearthem{
+    top: 10px;
+    right: 0;
+    padding: 3px;
+    background-color: white;
+    color: black;
+}
+
+
+
+.unob{
+    display: none;
+}
+
+.uno:hover + .unob{
+    display: block;
+    top: 0;
+    left: 0;
 }
 
