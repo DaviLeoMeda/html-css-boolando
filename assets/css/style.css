@@ -157,21 +157,23 @@ main{
     color: black;
 }
 
+.hearth:hover{
+    color: red;
+}
+
 .img-b{
     display: none;
 }
 
-.photo .img-a:hover{
+
+.hover-img:hover .img-a{
     display: none;
 }
 
-.photo .img-b:hover{
+.hover-img:hover .img-b{
     display: block;
 }
 
-.hearth:hover{
-    color: red;
-}
 
 
 /* Footer Elements */
@@ -195,4 +197,6 @@ ul li{
     color: #fff;
 }
 
-
+.justify-content-between{
+    justify-content: space-between;
+}
